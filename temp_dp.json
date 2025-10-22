@@ -1,208 +1,293 @@
 [
   {
-    "timestamp": "2025-10-23T00:28:02.010475",
+    "timestamp": "2025-10-23T01:09:43.364026",
     "personal_info": {
-      "first_name": "Владимир",
-      "last_name": "Миргородский",
-      "middle_name": "Владимирович",
-      "full_name": "Миргородский Владимир Владимирович",
-      "age": 21
-    },
-    "position": {
-      "title": "Начинающий специалист"
-    },
-    "location": {
-      "city": "Москва"
-    },
-    "experience_summary": {
-      "total_experience": {
-        "years": 7,
-        "months": 5
-      },
-      "experience_count": 1
-    },
-    "education_summary": {
-      "education_count": 2,
-      "education_level": "unfinished_higher"
-    },
-    "skills_summary": {
-      "skills_count": 3,
-      "key_skills": [
-        "Деловое общение",
-        "Телефонные переговоры",
-        "Точность и внимательность к деталям"
-      ]
-    },
-    "languages": [
-      {
-        "name": "Русский",
-        "level": "l1"
-      },
-      {
-        "name": "Английский",
-        "level": "b1"
-      }
-    ],
-    "contacts": {
-      "email": "lil.rhymes9@gmail.com",
-      "phone": [
-        {
-          "type": "cell",
-          "country": "7",
-          "city": "949",
-          "number": "7309466",
-          "comment": null,
-          "formatted": "+7 949 730-94-66",
-          "raw": "79497309466",
-          "verified": true,
-          "needVerification": false,
-          "canVerify": true
-        }
-      ]
-    },
-    "resume_id": "261051502",
-    "resume_hash": "d480e0ac000f8f546e0039ed1f33564f594c6c"
-  },
-  {
-    "timestamp": "2025-10-23T00:28:07.358371",
-    "personal_info": {
-      "first_name": "Владимир",
-      "last_name": "Миргородский",
-      "middle_name": "Владимирович",
-      "full_name": "Миргородский Владимир Владимирович",
-      "age": 21
-    },
-    "position": {
-      "title": "Начинающий специалист"
-    },
-    "location": {
-      "city": "Москва"
-    },
-    "experience_summary": {
-      "total_experience": {
-        "years": 7,
-        "months": 5
-      },
-      "experience_count": 1
-    },
-    "education_summary": {
-      "education_count": 2,
-      "education_level": "unfinished_higher"
-    },
-    "skills_summary": {
-      "skills_count": 3,
-      "key_skills": [
-        "Деловое общение",
-        "Телефонные переговоры",
-        "Точность и внимательность к деталям"
-      ]
-    },
-    "languages": [
-      {
-        "name": "Русский",
-        "level": "l1"
-      },
-      {
-        "name": "Английский",
-        "level": "b1"
-      }
-    ],
-    "contacts": {
-      "email": "lil.rhymes9@gmail.com",
-      "phone": [
-        {
-          "type": "cell",
-          "country": "7",
-          "city": "949",
-          "number": "7309466",
-          "comment": null,
-          "formatted": "+7 949 730-94-66",
-          "raw": "79497309466",
-          "verified": true,
-          "needVerification": false,
-          "canVerify": true
-        }
-      ]
-    },
-    "resume_id": "261051502",
-    "resume_hash": "d480e0ac000f8f546e0039ed1f33564f594c6c"
-  },
-  {
-    "timestamp": "2025-10-23T00:29:14.348168",
-    "personal_info": {
-      "name": "Начинающий специалист",
-      "first_name": "Владимир",
-      "last_name": "Миргородский",
-      "middle_name": "Владимирович",
-      "full_name": "Миргородский Владимир Владимирович",
-      "age": 21,
-      "birth_date": "2003-12-16",
+      "name": "Водитель",
+      "first_name": null,
+      "last_name": null,
+      "middle_name": null,
+      "full_name": "Водитель",
+      "age": 34,
+      "birth_date": "1990-10-27",
       "gender": "male",
-      "relocation": "relocation_possible",
+      "relocation": "no_relocation",
       "business_trip_readiness": "never"
     },
     "position": {
-      "title": "Начинающий специалист",
+      "title": "Водитель",
+      "salary": {
+        "amount": 65000,
+        "currency": "RUR",
+        "gross": null
+      },
       "employment": [
         "full"
       ]
     },
     "location": {
-      "city": "Москва",
-      "city_id": 1,
+      "city": "Санкт-Петербург",
+      "city_id": 2,
+      "metro": {
+        "id": 604,
+        "title": "Беговая",
+        "color": "#009A49"
+      },
       "citizenship": [
         "Россия"
       ]
     },
-    "experience_summary": {
-      "total_experience": {
-        "years": 7,
-        "months": 5
+    "experience": [
+      {
+        "id": 1741522529,
+        "company": "БМЧУ \"Хоспис на дому\"",
+        "position": "Водитель",
+        "description": "Развозка мед.персонала и оборудования по адресам",
+        "start_date": "2023-09-07",
+        "end_date": "2025-04-08",
+        "current": false,
+        "area": null,
+        "company_id": null,
+        "company_url": null,
+        "company_industry": [],
+        "profession": null
       },
-      "experience_count": 2
-    },
-    "education_summary": {
-      "education_count": 3,
-      "education_level": "unfinished_higher"
-    },
-    "skills_summary": {
-      "skills_count": 6,
-      "key_skills": [
-        "Деловое общение",
-        "Телефонные переговоры",
-        "Точность и внимательность к деталям"
-      ]
-    },
+      {
+        "id": 1741522530,
+        "company": "Иванко, ООО Ле'Муррр",
+        "position": "Водитель-курьер",
+        "description": "Адресная доставка товаров для животных",
+        "start_date": "2021-06-01",
+        "end_date": "2023-04-11",
+        "current": false,
+        "area": null,
+        "company_id": null,
+        "company_url": null,
+        "company_industry": [],
+        "profession": null
+      },
+      {
+        "id": 1741522531,
+        "company": "НКО Fincher",
+        "position": "Инкассатор",
+        "description": "Сбор, перевозка денежной наличности ",
+        "start_date": "2018-10-01",
+        "end_date": "2021-03-01",
+        "current": false,
+        "area": null,
+        "company_id": null,
+        "company_url": null,
+        "company_industry": [
+          647
+        ],
+        "profession": null
+      },
+      {
+        "id": 1741522532,
+        "company": "Мобис Модуль Снг",
+        "position": "Водитель электротележки",
+        "description": "Доставка комплектующих на производственную линию",
+        "start_date": "2013-09-01",
+        "end_date": "2018-03-01",
+        "current": false,
+        "area": null,
+        "company_id": null,
+        "company_url": null,
+        "company_industry": [
+          542
+        ],
+        "profession": null
+      },
+      {
+        "id": 1741522533,
+        "company": "Тойота Мотор Мануфэкчуринг Россия, ООО",
+        "position": "Слесарь механосборочных работ",
+        "description": "Финальная сборка автомобилей на конвейере ",
+        "start_date": "2011-11-01",
+        "end_date": "2012-08-01",
+        "current": false,
+        "area": null,
+        "company_id": 53761,
+        "company_url": null,
+        "company_industry": [
+          542
+        ],
+        "profession": null
+      },
+      {
+        "id": 1741522534,
+        "company": "Вооруженные силы РФ",
+        "position": "Водитель кат C. (Вус-837)",
+        "description": "Служба в ВС РФ",
+        "start_date": "2010-06-01",
+        "end_date": "2011-06-01",
+        "current": false,
+        "area": null,
+        "company_id": 1375349,
+        "company_url": "http://mil.ru/",
+        "company_industry": [],
+        "profession": null
+      },
+      {
+        "id": 1741522535,
+        "company": "типография \"Каир\"",
+        "position": "помощник печатника",
+        "description": "Замена печатных форм, смыв печатной машины",
+        "start_date": "2007-11-01",
+        "end_date": "2010-05-01",
+        "current": false,
+        "area": null,
+        "company_id": null,
+        "company_url": null,
+        "company_industry": [
+          460
+        ],
+        "profession": null
+      },
+      {
+        "type": "total",
+        "years": 15,
+        "months": 2
+      }
+    ],
+    "education": [
+      {
+        "type": "level",
+        "level": "special_secondary"
+      },
+      {
+        "type": "primary",
+        "id": 372181329,
+        "institution": "ПлП и КТ",
+        "faculty": "Дневной",
+        "specialization": "Печатник",
+        "year": 2010,
+        "level": "special_secondary"
+      },
+      {
+        "type": "additional",
+        "institution": "\"Техническое состояние и технический контроль транспортных средств автомобильного транспорта\" ",
+        "organization": "ООО\"Научный центр профессионального образования\" ",
+        "result": "Контролёр технического состояния транспортных средств автомобильного транспорта ",
+        "year": 2025
+      },
+      {
+        "type": "additional",
+        "institution": "\"Водитель электро- и автотележки\" с мощностью двигателя не более 4 кВт",
+        "organization": "\"Учебно-курсовой комбинат\" ",
+        "result": "Водитель электро- и автотележки ",
+        "year": 2013
+      },
+      {
+        "type": "attestation",
+        "institution": "\"Учебно-курсовой комбинат\" Лен.обл",
+        "organization": "\"Учебно-курсовой комбинат\" Лен.обл",
+        "result": "Водитель электротележки (до 4квт)",
+        "year": 2013
+      }
+    ],
+    "skills": [
+      {
+        "type": "key",
+        "name": "Исполнительность",
+        "id": null,
+        "general": false
+      },
+      {
+        "type": "key",
+        "name": "Обязательность",
+        "id": null,
+        "general": false
+      },
+      {
+        "type": "key",
+        "name": "Умение работать в команде",
+        "id": null,
+        "general": false
+      },
+      {
+        "type": "key",
+        "name": "Правила дорожного движения",
+        "id": null,
+        "general": false
+      },
+      {
+        "type": "advanced",
+        "name": "Исполнительность",
+        "id": 1997,
+        "general": true
+      },
+      {
+        "type": "advanced",
+        "name": "Обязательность",
+        "id": 8840,
+        "general": false
+      },
+      {
+        "type": "advanced",
+        "name": "Умение работать в команде",
+        "id": 3597,
+        "general": false
+      },
+      {
+        "type": "advanced",
+        "name": "Правила дорожного движения",
+        "id": 1527461,
+        "general": true
+      }
+    ],
     "languages": [
       {
         "id": 34,
         "name": "Русский",
         "level": "l1"
-      },
-      {
-        "id": 57,
-        "name": "Английский",
-        "level": "b1"
       }
     ],
     "contacts": {
-      "email": "lil.rhymes9@gmail.com",
-      "phone": [
-        {
-          "type": "cell",
-          "country": "7",
-          "city": "949",
-          "number": "7309466",
-          "comment": null,
-          "formatted": "+7 949 730-94-66",
-          "raw": "79497309466",
-          "verified": true,
-          "needVerification": false,
-          "canVerify": true
-        }
+      "email": null,
+      "phone": null
+    },
+    "additional_info": {
+      "id": null,
+      "hash": "05cd397b00018a18170039ed1f39684933736d",
+      "status": "modified",
+      "percent": 97,
+      "created_at": null,
+      "updated_at": null,
+      "permission": "view_without_contacts",
+      "source": "new_resume_builder",
+      "total_experience": {
+        "years": 15,
+        "months": 2
+      },
+      "driver_license": [
+        "B",
+        "C"
+      ],
+      "has_vehicle": true,
+      "portfolio": [],
+      "recommendations": null
+    },
+    "experience_summary": {
+      "total_experience": {
+        "years": 15,
+        "months": 2
+      },
+      "experience_count": 8
+    },
+    "education_summary": {
+      "education_count": 5,
+      "education_level": "special_secondary"
+    },
+    "skills_summary": {
+      "skills_count": 8,
+      "key_skills": [
+        "Исполнительность",
+        "Обязательность",
+        "Умение работать в команде",
+        "Правила дорожного движения"
       ]
     },
-    "resume_id": "261051502",
-    "resume_hash": "d480e0ac000f8f546e0039ed1f33564f594c6c"
+    "resume_id": null,
+    "resume_hash": "05cd397b00018a18170039ed1f39684933736d"
   }
 ]
