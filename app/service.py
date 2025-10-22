@@ -15,12 +15,28 @@ class ClientService:
 
     @staticmethod
     def _parse_hh_resume(link: str) -> dict:
-        elems = HHResumeParserService.parse_resume_by_url(link)
-        
-        # Сохраняем основную информацию в temp_dp.json
-        ClientService._save_to_temp_file(elems)
-        
-        return elems
+        try:
+            elems = HHResumeParserService.parse_resume_by_url(link)
+            
+            # Сохраняем основную информацию в temp_dp.json
+            ClientService._save_to_temp_file(elems)
+            
+            return elems
+        except Exception as e:
+            print(f"Ошибка при парсинге резюме {link}: {e}")
+            # Возвращаем пустую структуру в случае ошибки
+            return {
+                "personal_info": {},
+                "position": {},
+                "location": {},
+                "experience": [],
+                "education": [],
+                "skills": [],
+                "languages": [],
+                "contacts": {},
+                "additional_info": {},
+                "raw_json": {}
+            }
     
     @staticmethod
     def _save_to_temp_file(data: dict):
@@ -29,52 +45,96 @@ class ClientService:
         import json
         from datetime import datetime
         
-        # Основная информация для сохранения
-        main_info = {
-            "timestamp": datetime.now().isoformat(),
-            "personal_info": data.get("personal_info", {}),
-            "position": data.get("position", {}),
-            "location": data.get("location", {}),
-            "experience_summary": {
-                "total_experience": data.get("additional_info", {}).get("total_experience"),
-                "experience_count": len(data.get("experience", []))
-            },
-            "education_summary": {
-                "education_count": len(data.get("education", [])),
-                "education_level": data.get("education", [{}])[0].get("level") if data.get("education") else None
-            },
-            "skills_summary": {
-                "skills_count": len(data.get("skills", [])),
-                "key_skills": [skill.get("name") for skill in data.get("skills", []) if skill.get("type") == "key"][:5]  # Первые 5 ключевых навыков
-            },
-            "languages": data.get("languages", []),
-            "contacts": data.get("contacts", {}),
-            "resume_id": data.get("additional_info", {}).get("id"),
-            "resume_hash": data.get("additional_info", {}).get("hash")
-        }
-        
-        # Путь к файлу
-        temp_file = "temp_dp.json"
-        
-        # Читаем существующие данные
-        existing_data = []
-        if os.path.exists(temp_file):
-            try:
-                with open(temp_file, 'r', encoding='utf-8') as f:
-                    existing_data = json.load(f)
-                if not isinstance(existing_data, list):
+        try:
+            # Основная информация для сохранения с безопасным извлечением
+            main_info = {
+                "timestamp": datetime.now().isoformat(),
+                "personal_info": data.get("personal_info", {}),
+                "position": data.get("position", {}),
+                "location": data.get("location", {}),
+                "experience": data.get("experience", []),  # Полный список опыта работы
+                "education": data.get("education", []),   # Полный список образования
+                "skills": data.get("skills", []),         # Полный список навыков
+                "languages": data.get("languages", []),
+                "contacts": data.get("contacts", {}),
+                "additional_info": data.get("additional_info", {}),
+                "experience_summary": {
+                    "total_experience": data.get("additional_info", {}).get("total_experience"),
+                    "experience_count": len(data.get("experience", []))
+                },
+                "education_summary": {
+                    "education_count": len(data.get("education", [])),
+                    "education_level": data.get("education", [{}])[0].get("level") if data.get("education") else None
+                },
+                "skills_summary": {
+                    "skills_count": len(data.get("skills", [])),
+                    "key_skills": [skill.get("name") for skill in data.get("skills", []) if isinstance(skill, dict) and skill.get("type") == "key"][:5]  # Первые 5 ключевых навыков
+                },
+                "resume_id": data.get("additional_info", {}).get("id"),
+                "resume_hash": data.get("additional_info", {}).get("hash")
+            }
+            
+            # Путь к файлу
+            temp_file = "temp_dp.json"
+            
+            # Читаем существующие данные
+            existing_data = []
+            if os.path.exists(temp_file):
+                try:
+                    with open(temp_file, 'r', encoding='utf-8') as f:
+                        existing_data = json.load(f)
+                    if not isinstance(existing_data, list):
+                        existing_data = []
+                except (json.JSONDecodeError, FileNotFoundError):
                     existing_data = []
-            except (json.JSONDecodeError, FileNotFoundError):
+            
+            # Добавляем новую запись
+            existing_data.append(main_info)
+            
+            # Сохраняем обновленные данные
+            with open(temp_file, 'w', encoding='utf-8') as f:
+                json.dump(existing_data, f, ensure_ascii=False, indent=2)
+            
+            print(f"Данные сохранены в {temp_file}. Всего записей: {len(existing_data)}")
+            
+        except Exception as e:
+            print(f"Ошибка при сохранении в temp_dp.json: {e}")
+            # Создаем минимальную запись об ошибке
+            try:
+                error_info = {
+                    "timestamp": datetime.now().isoformat(),
+                    "error": str(e),
+                    "personal_info": {},
+                    "position": {},
+                    "location": {},
+                    "experience_summary": {"total_experience": None, "experience_count": 0},
+                    "education_summary": {"education_count": 0, "education_level": None},
+                    "skills_summary": {"skills_count": 0, "key_skills": []},
+                    "languages": [],
+                    "contacts": {},
+                    "resume_id": None,
+                    "resume_hash": None
+                }
+                
+                temp_file = "temp_dp.json"
                 existing_data = []
-        
-        # Добавляем новую запись
-        existing_data.append(main_info)
-        
-        # Сохраняем обновленные данные
-        with open(temp_file, 'w', encoding='utf-8') as f:
-            json.dump(existing_data, f, ensure_ascii=False, indent=2)
-        
-        print(f"Данные сохранены в {temp_file}. Всего записей: {len(existing_data)}")
+                if os.path.exists(temp_file):
+                    try:
+                        with open(temp_file, 'r', encoding='utf-8') as f:
+                            existing_data = json.load(f)
+                        if not isinstance(existing_data, list):
+                            existing_data = []
+                    except:
+                        existing_data = []
+                
+                existing_data.append(error_info)
+                
+                with open(temp_file, 'w', encoding='utf-8') as f:
+                    json.dump(existing_data, f, ensure_ascii=False, indent=2)
+                    
+                print(f"Запись об ошибке сохранена в {temp_file}")
+            except:
+                print("Не удалось сохранить даже запись об ошибке")
 
 
 class HHResumeParserService:
@@ -111,19 +171,64 @@ class HHResumeParserService:
         # Извлекаем JSON данные из HH-Lux-InitialState
         json_data = cls._extract_json_data(soup)
         
-        # Структурированные данные
-        data = {
-            "personal_info": cls._extract_personal_info(soup, json_data),
-            "position": cls._extract_position(soup, json_data),
-            "location": cls._extract_location(soup, json_data),
-            "experience": cls._extract_experience(soup, json_data),
-            "education": cls._extract_education(soup, json_data),
-            "skills": cls._extract_skills(soup, json_data),
-            "languages": cls._extract_languages(soup, json_data),
-            "contacts": cls._extract_contacts(soup, json_data),
-            "additional_info": cls._extract_additional_info(soup, json_data),
-            "raw_json": json_data  # Сохраняем сырые JSON данные для отладки
-        }
+        # Структурированные данные с обработкой ошибок
+        data = {}
+        
+        try:
+            data["personal_info"] = cls._extract_personal_info(soup, json_data)
+        except Exception as e:
+            print(f"Ошибка при извлечении личной информации: {e}")
+            data["personal_info"] = {}
+        
+        try:
+            data["position"] = cls._extract_position(soup, json_data)
+        except Exception as e:
+            print(f"Ошибка при извлечении должности: {e}")
+            data["position"] = {}
+        
+        try:
+            data["location"] = cls._extract_location(soup, json_data)
+        except Exception as e:
+            print(f"Ошибка при извлечении местоположения: {e}")
+            data["location"] = {}
+        
+        try:
+            data["experience"] = cls._extract_experience(soup, json_data)
+        except Exception as e:
+            print(f"Ошибка при извлечении опыта: {e}")
+            data["experience"] = []
+        
+        try:
+            data["education"] = cls._extract_education(soup, json_data)
+        except Exception as e:
+            print(f"Ошибка при извлечении образования: {e}")
+            data["education"] = []
+        
+        try:
+            data["skills"] = cls._extract_skills(soup, json_data)
+        except Exception as e:
+            print(f"Ошибка при извлечении навыков: {e}")
+            data["skills"] = []
+        
+        try:
+            data["languages"] = cls._extract_languages(soup, json_data)
+        except Exception as e:
+            print(f"Ошибка при извлечении языков: {e}")
+            data["languages"] = []
+        
+        try:
+            data["contacts"] = cls._extract_contacts(soup, json_data)
+        except Exception as e:
+            print(f"Ошибка при извлечении контактов: {e}")
+            data["contacts"] = {}
+        
+        try:
+            data["additional_info"] = cls._extract_additional_info(soup, json_data)
+        except Exception as e:
+            print(f"Ошибка при извлечении дополнительной информации: {e}")
+            data["additional_info"] = {}
+        
+        data["raw_json"] = json_data  # Сохраняем сырые JSON данные для отладки
 
         return data
 
@@ -206,9 +311,17 @@ class HHResumeParserService:
             if "salary" in resume_data and "value" in resume_data["salary"]:
                 salary = resume_data["salary"]["value"]
                 if salary:  # Проверяем, что salary не None
+                    currency = salary.get("currency")
+                    currency_title = None
+                    if currency:
+                        if isinstance(currency, dict):
+                            currency_title = currency.get("title")
+                        elif isinstance(currency, str):
+                            currency_title = currency
+                    
                     position_info["salary"] = {
                         "amount": salary.get("amount"),
-                        "currency": salary.get("currency", {}).get("title") if salary.get("currency") else None,
+                        "currency": currency_title,
                         "gross": salary.get("gross")
                     }
             
@@ -281,13 +394,17 @@ class HHResumeParserService:
                     if isinstance(exp, dict):
                         exp_info = {
                             "id": exp.get("id"),
-                            "company": exp.get("company", {}).get("name") if isinstance(exp.get("company"), dict) else exp.get("company"),
+                            "company": exp.get("companyName") or (exp.get("company", {}).get("name") if isinstance(exp.get("company"), dict) else exp.get("company")),
                             "position": exp.get("position"),
                             "description": exp.get("description"),
                             "start_date": exp.get("startDate"),
                             "end_date": exp.get("endDate"),
                             "current": exp.get("current", False),
-                            "area": exp.get("area", {}).get("name") if isinstance(exp.get("area"), dict) else exp.get("area")
+                            "area": exp.get("area", {}).get("name") if isinstance(exp.get("area"), dict) else exp.get("area"),
+                            "company_id": exp.get("companyId"),
+                            "company_url": exp.get("companyUrl"),
+                            "company_industry": exp.get("companyIndustries", []),
+                            "profession": exp.get("professionName")
                         }
                         experience.append(exp_info)
             
@@ -508,7 +625,27 @@ class HHResumeParserService:
         return el.text.strip() if el else None
 
     @classmethod
+    def _safe_get(cls, data, key, default=None):
+        """Безопасное извлечение значения из словаря"""
+        if not isinstance(data, dict):
+            return default
+        return data.get(key, default)
+
+    @classmethod
+    def _safe_get_nested(cls, data, keys, default=None):
+        """Безопасное извлечение вложенного значения"""
+        current = data
+        for key in keys:
+            if isinstance(current, dict) and key in current:
+                current = current[key]
+            else:
+                return default
+        return current
+
+    @classmethod
     def parse_resume_by_url(cls, url: str) -> dict:
         """Главная точка входа"""
         html = cls.fetch_html(url)
+        with open("resuem.html", "w", encoding="utf-8") as f:
+            f.write(html)
         return cls.parse_resume(html)
