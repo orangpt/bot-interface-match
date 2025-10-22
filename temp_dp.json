@@ -1,0 +1,208 @@
+[
+  {
+    "timestamp": "2025-10-23T00:28:02.010475",
+    "personal_info": {
+      "first_name": "Владимир",
+      "last_name": "Миргородский",
+      "middle_name": "Владимирович",
+      "full_name": "Миргородский Владимир Владимирович",
+      "age": 21
+    },
+    "position": {
+      "title": "Начинающий специалист"
+    },
+    "location": {
+      "city": "Москва"
+    },
+    "experience_summary": {
+      "total_experience": {
+        "years": 7,
+        "months": 5
+      },
+      "experience_count": 1
+    },
+    "education_summary": {
+      "education_count": 2,
+      "education_level": "unfinished_higher"
+    },
+    "skills_summary": {
+      "skills_count": 3,
+      "key_skills": [
+        "Деловое общение",
+        "Телефонные переговоры",
+        "Точность и внимательность к деталям"
+      ]
+    },
+    "languages": [
+      {
+        "name": "Русский",
+        "level": "l1"
+      },
+      {
+        "name": "Английский",
+        "level": "b1"
+      }
+    ],
+    "contacts": {
+      "email": "lil.rhymes9@gmail.com",
+      "phone": [
+        {
+          "type": "cell",
+          "country": "7",
+          "city": "949",
+          "number": "7309466",
+          "comment": null,
+          "formatted": "+7 949 730-94-66",
+          "raw": "79497309466",
+          "verified": true,
+          "needVerification": false,
+          "canVerify": true
+        }
+      ]
+    },
+    "resume_id": "261051502",
+    "resume_hash": "d480e0ac000f8f546e0039ed1f33564f594c6c"
+  },
+  {
+    "timestamp": "2025-10-23T00:28:07.358371",
+    "personal_info": {
+      "first_name": "Владимир",
+      "last_name": "Миргородский",
+      "middle_name": "Владимирович",
+      "full_name": "Миргородский Владимир Владимирович",
+      "age": 21
+    },
+    "position": {
+      "title": "Начинающий специалист"
+    },
+    "location": {
+      "city": "Москва"
+    },
+    "experience_summary": {
+      "total_experience": {
+        "years": 7,
+        "months": 5
+      },
+      "experience_count": 1
+    },
+    "education_summary": {
+      "education_count": 2,
+      "education_level": "unfinished_higher"
+    },
+    "skills_summary": {
+      "skills_count": 3,
+      "key_skills": [
+        "Деловое общение",
+        "Телефонные переговоры",
+        "Точность и внимательность к деталям"
+      ]
+    },
+    "languages": [
+      {
+        "name": "Русский",
+        "level": "l1"
+      },
+      {
+        "name": "Английский",
+        "level": "b1"
+      }
+    ],
+    "contacts": {
+      "email": "lil.rhymes9@gmail.com",
+      "phone": [
+        {
+          "type": "cell",
+          "country": "7",
+          "city": "949",
+          "number": "7309466",
+          "comment": null,
+          "formatted": "+7 949 730-94-66",
+          "raw": "79497309466",
+          "verified": true,
+          "needVerification": false,
+          "canVerify": true
+        }
+      ]
+    },
+    "resume_id": "261051502",
+    "resume_hash": "d480e0ac000f8f546e0039ed1f33564f594c6c"
+  },
+  {
+    "timestamp": "2025-10-23T00:29:14.348168",
+    "personal_info": {
+      "name": "Начинающий специалист",
+      "first_name": "Владимир",
+      "last_name": "Миргородский",
+      "middle_name": "Владимирович",
+      "full_name": "Миргородский Владимир Владимирович",
+      "age": 21,
+      "birth_date": "2003-12-16",
+      "gender": "male",
+      "relocation": "relocation_possible",
+      "business_trip_readiness": "never"
+    },
+    "position": {
+      "title": "Начинающий специалист",
+      "employment": [
+        "full"
+      ]
+    },
+    "location": {
+      "city": "Москва",
+      "city_id": 1,
+      "citizenship": [
+        "Россия"
+      ]
+    },
+    "experience_summary": {
+      "total_experience": {
+        "years": 7,
+        "months": 5
+      },
+      "experience_count": 2
+    },
+    "education_summary": {
+      "education_count": 3,
+      "education_level": "unfinished_higher"
+    },
+    "skills_summary": {
+      "skills_count": 6,
+      "key_skills": [
+        "Деловое общение",
+        "Телефонные переговоры",
+        "Точность и внимательность к деталям"
+      ]
+    },
+    "languages": [
+      {
+        "id": 34,
+        "name": "Русский",
+        "level": "l1"
+      },
+      {
+        "id": 57,
+        "name": "Английский",
+        "level": "b1"
+      }
+    ],
+    "contacts": {
+      "email": "lil.rhymes9@gmail.com",
+      "phone": [
+        {
+          "type": "cell",
+          "country": "7",
+          "city": "949",
+          "number": "7309466",
+          "comment": null,
+          "formatted": "+7 949 730-94-66",
+          "raw": "79497309466",
+          "verified": true,
+          "needVerification": false,
+          "canVerify": true
+        }
+      ]
+    },
+    "resume_id": "261051502",
+    "resume_hash": "d480e0ac000f8f546e0039ed1f33564f594c6c"
+  }
+]
