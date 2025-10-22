@@ -50,6 +50,10 @@ class HHResumeParserService:
             "city": cls._extract_text(soup, "span", {"data-qa": "resume-personal-address"}),
             "experience": cls._extract_experience(soup),
         }
+        # print(html)
+        with open("resuem.html", "w", encoding="utf-8") as f:
+            f.write(html)
+            
 
         # Проверка на скрытое или удалённое резюме
         if "резюме скрыто" in soup.get_text().lower():
