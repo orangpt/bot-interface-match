@@ -523,7 +523,7 @@ class HHResumeParserService:
                                 "general": skill.get("general", False)
                             }
                             skills.append(skill_info)
-        
+
         return skills
 
     @classmethod
