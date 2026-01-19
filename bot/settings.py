@@ -47,6 +47,7 @@ INSTALLED_APPS = [
 
 BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
 BOT_CHAT_ID = os.getenv('TELEGRAM_BOT_CHAT_ID')
+OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

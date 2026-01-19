@@ -36,7 +36,7 @@ ONTOLOGY_PATH = Path(__file__).resolve().parent.parent / "ontology_generated.jso
 hidden_skills_service = HiddenSkillsService(ONTOLOGY_PATH)
 youmap_service = CandidateYouMapService(
     ontology_file=ONTOLOGY_PATH,
-    openai_api_key="REMOVED"
+    openai_api_key=settings.OPENAI_API_KEY
 )
 
 career_path_service = CareerPathService(
