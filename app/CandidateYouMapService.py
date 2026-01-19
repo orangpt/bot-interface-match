@@ -191,6 +191,9 @@ class CandidateYouMapService:
         }
 
     # =================== Эмбеддинги ===================
+    # def get_embeddings(self, texts: list):
+    #     response = self.client.embeddings.create(model="text-embedding-3-small", input=texts)
+    #     return [item.embedding for item in response.data]
     def get_embeddings(self, texts: list):
-        response = self.client.embeddings.create(model="text-embedding-3-small", input=texts)
-        return [item.embedding for item in response.data]
+        # mock: возвращаем фиктивные эмбеддинги той же длины, что и входные тексты
+        return [[0.1, 0.2, 0.3] for _ in texts]

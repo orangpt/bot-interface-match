@@ -1,0 +1,1166 @@
+{
+  "skills": [
+    "postgresql",
+    "rest",
+    "git",
+    "apache kafka",
+    "gitlab",
+    "api",
+    "mysql",
+    "redis",
+    "php",
+    "sql",
+    "fastapi",
+    "английский язык",
+    "java",
+    "ui",
+    "javascript",
+    "go",
+    "python",
+    "r",
+    "docker",
+    "kafka"
+  ],
+  "relations": [
+    {
+      "from": "postgresql",
+      "to": "rest",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "postgresql",
+      "to": "git",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "postgresql",
+      "to": "apache kafka",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "postgresql",
+      "to": "gitlab",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "postgresql",
+      "to": "api",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "postgresql",
+      "to": "mysql",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "postgresql",
+      "to": "redis",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "postgresql",
+      "to": "php",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "postgresql",
+      "to": "sql",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "postgresql",
+      "to": "fastapi",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "postgresql",
+      "to": "английский язык",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "postgresql",
+      "to": "java",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "postgresql",
+      "to": "ui",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "postgresql",
+      "to": "javascript",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "postgresql",
+      "to": "go",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "postgresql",
+      "to": "python",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "postgresql",
+      "to": "r",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "postgresql",
+      "to": "docker",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "postgresql",
+      "to": "kafka",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "rest",
+      "to": "git",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "rest",
+      "to": "apache kafka",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "rest",
+      "to": "gitlab",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "rest",
+      "to": "api",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "rest",
+      "to": "mysql",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "rest",
+      "to": "redis",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "rest",
+      "to": "php",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "rest",
+      "to": "sql",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "rest",
+      "to": "fastapi",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "rest",
+      "to": "английский язык",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "rest",
+      "to": "java",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "rest",
+      "to": "ui",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "rest",
+      "to": "javascript",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "rest",
+      "to": "go",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "rest",
+      "to": "python",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "rest",
+      "to": "r",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "rest",
+      "to": "docker",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "rest",
+      "to": "kafka",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "git",
+      "to": "apache kafka",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "git",
+      "to": "gitlab",
+      "similarity": 1.0,
+      "type": "PART_OF"
+    },
+    {
+      "from": "git",
+      "to": "api",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "git",
+      "to": "mysql",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "git",
+      "to": "redis",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "git",
+      "to": "php",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "git",
+      "to": "sql",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "git",
+      "to": "fastapi",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "git",
+      "to": "английский язык",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "git",
+      "to": "java",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "git",
+      "to": "ui",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "git",
+      "to": "javascript",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "git",
+      "to": "go",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "git",
+      "to": "python",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "git",
+      "to": "r",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "git",
+      "to": "docker",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "git",
+      "to": "kafka",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "apache kafka",
+      "to": "gitlab",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "apache kafka",
+      "to": "api",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "apache kafka",
+      "to": "mysql",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "apache kafka",
+      "to": "redis",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "apache kafka",
+      "to": "php",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "apache kafka",
+      "to": "sql",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "apache kafka",
+      "to": "fastapi",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "apache kafka",
+      "to": "английский язык",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "apache kafka",
+      "to": "java",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "apache kafka",
+      "to": "ui",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "apache kafka",
+      "to": "javascript",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "apache kafka",
+      "to": "go",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "apache kafka",
+      "to": "python",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "apache kafka",
+      "to": "r",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "apache kafka",
+      "to": "docker",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "apache kafka",
+      "to": "kafka",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "gitlab",
+      "to": "api",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "gitlab",
+      "to": "mysql",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "gitlab",
+      "to": "redis",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "gitlab",
+      "to": "php",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "gitlab",
+      "to": "sql",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "gitlab",
+      "to": "fastapi",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "gitlab",
+      "to": "английский язык",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "gitlab",
+      "to": "java",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "gitlab",
+      "to": "ui",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "gitlab",
+      "to": "javascript",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "gitlab",
+      "to": "go",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "gitlab",
+      "to": "python",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "gitlab",
+      "to": "r",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "gitlab",
+      "to": "docker",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "gitlab",
+      "to": "kafka",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "api",
+      "to": "mysql",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "api",
+      "to": "redis",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "api",
+      "to": "php",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "api",
+      "to": "sql",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "api",
+      "to": "fastapi",
+      "similarity": 1.0,
+      "type": "PART_OF"
+    },
+    {
+      "from": "api",
+      "to": "английский язык",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "api",
+      "to": "java",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "api",
+      "to": "ui",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "api",
+      "to": "javascript",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "api",
+      "to": "go",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "api",
+      "to": "python",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "api",
+      "to": "r",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "api",
+      "to": "docker",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "api",
+      "to": "kafka",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "mysql",
+      "to": "redis",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "mysql",
+      "to": "php",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "mysql",
+      "to": "sql",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "mysql",
+      "to": "fastapi",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "mysql",
+      "to": "английский язык",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "mysql",
+      "to": "java",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "mysql",
+      "to": "ui",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "mysql",
+      "to": "javascript",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "mysql",
+      "to": "go",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "mysql",
+      "to": "python",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "mysql",
+      "to": "r",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "mysql",
+      "to": "docker",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "mysql",
+      "to": "kafka",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "redis",
+      "to": "php",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "redis",
+      "to": "sql",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "redis",
+      "to": "fastapi",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "redis",
+      "to": "английский язык",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "redis",
+      "to": "java",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "redis",
+      "to": "ui",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "redis",
+      "to": "javascript",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "redis",
+      "to": "go",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "redis",
+      "to": "python",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "redis",
+      "to": "r",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "redis",
+      "to": "docker",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "redis",
+      "to": "kafka",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "php",
+      "to": "sql",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "php",
+      "to": "fastapi",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "php",
+      "to": "английский язык",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "php",
+      "to": "java",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "php",
+      "to": "ui",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "php",
+      "to": "javascript",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "php",
+      "to": "go",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "php",
+      "to": "python",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "php",
+      "to": "r",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "php",
+      "to": "docker",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "php",
+      "to": "kafka",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "sql",
+      "to": "fastapi",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "sql",
+      "to": "английский язык",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "sql",
+      "to": "java",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "sql",
+      "to": "ui",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "sql",
+      "to": "javascript",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "sql",
+      "to": "go",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "sql",
+      "to": "python",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "sql",
+      "to": "r",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "sql",
+      "to": "docker",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "sql",
+      "to": "kafka",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "fastapi",
+      "to": "английский язык",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "fastapi",
+      "to": "java",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "fastapi",
+      "to": "ui",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "fastapi",
+      "to": "javascript",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "fastapi",
+      "to": "go",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "fastapi",
+      "to": "python",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "fastapi",
+      "to": "r",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "fastapi",
+      "to": "docker",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "fastapi",
+      "to": "kafka",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "английский язык",
+      "to": "java",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "английский язык",
+      "to": "ui",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "английский язык",
+      "to": "javascript",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "английский язык",
+      "to": "go",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "английский язык",
+      "to": "python",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "английский язык",
+      "to": "r",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "английский язык",
+      "to": "docker",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "английский язык",
+      "to": "kafka",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "java",
+      "to": "ui",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "java",
+      "to": "javascript",
+      "similarity": 1.0,
+      "type": "PART_OF"
+    },
+    {
+      "from": "java",
+      "to": "go",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "java",
+      "to": "python",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "java",
+      "to": "r",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "java",
+      "to": "docker",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "java",
+      "to": "kafka",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "ui",
+      "to": "javascript",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "ui",
+      "to": "go",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "ui",
+      "to": "python",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "ui",
+      "to": "r",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "ui",
+      "to": "docker",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "ui",
+      "to": "kafka",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "javascript",
+      "to": "go",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "javascript",
+      "to": "python",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "javascript",
+      "to": "r",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "javascript",
+      "to": "docker",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "javascript",
+      "to": "kafka",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "go",
+      "to": "python",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "go",
+      "to": "r",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "go",
+      "to": "docker",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "go",
+      "to": "kafka",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "python",
+      "to": "r",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "python",
+      "to": "docker",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "python",
+      "to": "kafka",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    },
+    {
+      "from": "r",
+      "to": "docker",
+      "similarity": 1.0,
+      "type": "PART_OF"
+    },
+    {
+      "from": "r",
+      "to": "kafka",
+      "similarity": 1.0,
+      "type": "RELATED"
+    },
+    {
+      "from": "docker",
+      "to": "kafka",
+      "similarity": 1.0,
+      "type": "SIMILAR_TO"
+    }
+  ]
+}

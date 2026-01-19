@@ -63,7 +63,8 @@ class CareerPathService:
                 "period": f"{months-6}-{months} мес.",
                 "position": step["vacancy"]["name"],
                 "learn_skills": self._prioritize_skills(step["missing_skills"], roi_map),
-                "weight": step["weight"]
+                "weight": step["weight"],
+                "salary": step["vacancy"]["salary"]
             }
             growth_plan.append(stage)
         return growth_plan

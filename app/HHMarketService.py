@@ -11,7 +11,7 @@ from scipy.spatial.distance import cosine
 
 
 GET_VACANCIES = "https://api.hh.ru/vacancies"
-BEARER_TOKEN = "USERUGG8HT8G3Q7E06SU8VAKECL47KAM98MNN8B7HE5LF8TJI8OHJU7GTRJD7ASV"
+BEARER_TOKEN = "USERP1RTNDAV0Q3592PIAA92TRL0H4CJTIIRN9SGTHFN3FVGBF16GN2HHL1RD6J5"
 
 
 class HHMarketService:
@@ -23,14 +23,14 @@ class HHMarketService:
         def __init__(self):
             self.headers = {"Authorization": f"Bearer {BEARER_TOKEN}"}
 
-        def get_vacancies(self, text="Java backend developer", limit=5):
+        def get_vacancies(self, text="Java backend developer", limit=100):
             vacancies = []
             page = 0
             while len(vacancies) < limit:
                 resp = requests.get(
                     GET_VACANCIES,
                     headers=self.headers,
-                    params={"text": text, "per_page": 5, "page": page}
+                    params={"text": text, "per_page": 50, "page": page}
                 )
                 if resp.status_code != 200:
                     break
@@ -56,7 +56,7 @@ class HHMarketService:
         return description.split(",")[0].strip()
 
     def _prepare_vacancy_df(self, resume_title: str, candidate_description: str) -> pd.DataFrame:
-        all_vacancies = self._hh.get_vacancies(text=resume_title, limit=80)
+        all_vacancies = self._hh.get_vacancies(text=resume_title, limit=350)
         if not all_vacancies:
             return pd.DataFrame()
 
@@ -95,8 +95,16 @@ class HHMarketService:
         combined_vectors = np.vstack([vacancy_vectors, candidate_vector])
         scaled_vectors = StandardScaler().fit_transform(combined_vectors)
 
-        kmeans = KMeans(n_clusters=15, random_state=42, n_init=10)
+        # 🔧 исправлено:
+        n_clusters = min(15, len(combined_vectors))
+        if n_clusters < 2:
+            n_clusters = 2  # чтобы не падал при 1 вакансии
+        elif n_clusters > 15:
+            n_clusters = 15
+
+        kmeans = KMeans(n_clusters=n_clusters, random_state=42, n_init=10)
         clusters = kmeans.fit_predict(scaled_vectors)
+
 
         df["cluster"] = clusters[:-1]
         candidate_cluster = clusters[-1]
@@ -125,7 +133,9 @@ class HHMarketService:
             return {}
 
         df, candidate_cluster, candidate_vector = self._cluster_vacancies(df, candidate_description)
+        print("candidate_description", candidate_description)
         hidden_skills = self._extract_hidden_skills(df, candidate_description)
+        print("hidden_skills", hidden_skills)
         return hidden_skills
 
     def get_target_vacancies(self, candidate_description: str, limit=10):
@@ -140,5 +150,7 @@ class HHMarketService:
         target_vacancies = []
         for _, row in df.iterrows():
             skills = set(row["skills"].split(", ")) if pd.notnull(row["skills"]) else set()
-            target_vacancies.append({"id": row["id"], "name": row["name"], "skills": skills})
+            target_vacancies.append({"id": row["id"], "name": row["name"], "skills": skills,
+                                     "salary": f'{row["salary_from"]} - {row["salary_to"]}'
+                                     })
         return target_vacancies
