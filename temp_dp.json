@@ -289,5 +289,154 @@
     },
     "resume_id": null,
     "resume_hash": "05cd397b00018a18170039ed1f39684933736d"
+  },
+  {
+    "timestamp": "2026-02-19T22:12:22.279307",
+    "personal_info": {
+      "name": "Энергетик ( 5 гр.)",
+      "first_name": null,
+      "last_name": null,
+      "middle_name": null,
+      "full_name": "Энергетик ( 5 гр.)",
+      "age": 45,
+      "birth_date": "1980-08-01",
+      "gender": "male",
+      "relocation": "relocation_possible",
+      "business_trip_readiness": "ready"
+    },
+    "position": {
+      "title": "Энергетик ( 5 гр.)",
+      "employment": [
+        "full"
+      ]
+    },
+    "experience_count": 13,
+    "education_count": 3,
+    "skills_count": 6,
+    "text_for_ai_preview": "ФИО: Энергетик ( 5 гр.)\nВозраст/дата рождения: 1980-08-01\nПол: male\nПереезд: relocation_possible\nКомандировки: ready\n\nЖелаемая должность: Энергетик ( 5 гр.)\nЗанятость: ['full']\n\nГород: Москва\nГражданство: ['Россия']\n\n--- Опыт работы ---\n1. Инженер механик по системе очистке бурового раствора в ООО Бейкер Хьюз. 2021-07-01 — 2023-11-01\n   Контроль за оборудованием Derick  и его ремонт в случае необходимости. Составление отчётности , проведение ТО и капитального ремонта оборудования УМОШ. Проведени"
+  },
+  {
+    "timestamp": "2026-02-19T22:18:38.558969",
+    "personal_info": {
+      "name": "Энергетик ( 5 гр.)",
+      "first_name": null,
+      "last_name": null,
+      "middle_name": null,
+      "full_name": "Энергетик ( 5 гр.)",
+      "age": 45,
+      "birth_date": "1980-08-01",
+      "gender": "male",
+      "relocation": "relocation_possible",
+      "business_trip_readiness": "ready"
+    },
+    "position": {
+      "title": "Энергетик ( 5 гр.)",
+      "employment": [
+        "full"
+      ]
+    },
+    "experience_count": 13,
+    "education_count": 3,
+    "skills_count": 6,
+    "text_for_ai_preview": "ФИО: Энергетик ( 5 гр.)\nВозраст/дата рождения: 1980-08-01\nПол: male\nПереезд: relocation_possible\nКомандировки: ready\n\nЖелаемая должность: Энергетик ( 5 гр.)\nЗанятость: ['full']\n\nГород: Москва\nГражданство: ['Россия']\n\n--- Опыт работы ---\n1. Инженер механик по системе очистке бурового раствора в ООО Бейкер Хьюз. 2021-07-01 — 2023-11-01\n   Контроль за оборудованием Derick  и его ремонт в случае необходимости. Составление отчётности , проведение ТО и капитального ремонта оборудования УМОШ. Проведени"
+  },
+  {
+    "timestamp": "2026-02-19T22:19:08.641865",
+    "personal_info": {},
+    "position": {},
+    "experience_count": 0,
+    "education_count": 0,
+    "skills_count": 0,
+    "text_for_ai_preview": "■■■■ ■■■■■■\n**Email:** ivan.ivanov@email.com\n**■■■■■■■:** +7 (999) 123-45-67\n**■■■■■:** ■■■■■■\n■■■■\nFrontend-■■■■■■■■■■■ ■ 3+ ■■■■■■ ■■■■■ ■ ■■■■■■■■ ■■■-■■■■■■■■■■.\n■■■■■■■■ ■■■■■■\n HTML5, CSS3, JavaScript (ES6+)\n React, Redux\n Git, REST API\n ■■■■■■■■■■ ■■■■■■■\n■■■■ ■■■■■■\nFrontend-■■■■■■■■■■■ — ■■■ «■■■■■■■»\n*2022 — ■■■■■■■■■ ■■■■■*\n ■■■■■■■■■■ SPA-■■■■■■■■■■ ■■ React\n ■■■■■■■■■■■ ■■■■■■■■■■■■■■■■■■ ■■■■■\n ■■■■■■ ■ ■■■■■■■ ■■ Agile\n■■■■■■■■■■■ — ■■■■■■ WebArt\n*2020 — 2022*\n ■■■■■■■■■■■"
+  },
+  {
+    "timestamp": "2026-02-19T22:19:41.311974",
+    "personal_info": {},
+    "position": {},
+    "experience_count": 0,
+    "education_count": 0,
+    "skills_count": 0,
+    "text_for_ai_preview": "# Иван Иванов\n\n**Email:** ivan.ivanov@email.com\\\n**Телефон:** +7 (999) 123-45-67\\\n**Город:** Москва\n\n## Цель\n\nFrontend-разработчик с 3+ годами опыта в создании веб-приложений.\n\n## Ключевые навыки\n\n-   HTML5, CSS3, JavaScript (ES6+)\n-   React, Redux\n-   Git, REST API\n-   Адаптивная верстка\n\n## Опыт работы\n\n### Frontend-разработчик --- ООО «ТехСофт»\n\n*2022 --- настоящее время* - Разработка SPA-приложений на React -\nОптимизация производительности сайта - Работа в команде по Agile\n\n### Верстальщик -"
+  },
+  {
+    "timestamp": "2026-02-19T22:20:16.716898",
+    "personal_info": {},
+    "position": {},
+    "experience_count": 0,
+    "education_count": 0,
+    "skills_count": 0,
+    "text_for_ai_preview": "■■■■ ■■■■■■\n**Email:** ivan.ivanov@email.com\n**■■■■■■■:** +7 (999) 123-45-67\n**■■■■■:** ■■■■■■\n■■■■\nFrontend-■■■■■■■■■■■ ■ 3+ ■■■■■■ ■■■■■ ■ ■■■■■■■■ ■■■-■■■■■■■■■■.\n■■■■■■■■ ■■■■■■\n HTML5, CSS3, JavaScript (ES6+)\n React, Redux\n Git, REST API\n ■■■■■■■■■■ ■■■■■■■\n■■■■ ■■■■■■\nFrontend-■■■■■■■■■■■ — ■■■ «■■■■■■■»\n*2022 — ■■■■■■■■■ ■■■■■*\n ■■■■■■■■■■ SPA-■■■■■■■■■■ ■■ React\n ■■■■■■■■■■■ ■■■■■■■■■■■■■■■■■■ ■■■■■\n ■■■■■■ ■ ■■■■■■■ ■■ Agile\n■■■■■■■■■■■ — ■■■■■■ WebArt\n*2020 — 2022*\n ■■■■■■■■■■■"
+  },
+  {
+    "timestamp": "2026-02-19T22:20:24.579049",
+    "personal_info": {},
+    "position": {},
+    "experience_count": 0,
+    "education_count": 0,
+    "skills_count": 0,
+    "text_for_ai_preview": "# Иван Иванов\n\n**Email:** ivan.ivanov@email.com\\\n**Телефон:** +7 (999) 123-45-67\\\n**Город:** Москва\n\n## Цель\n\nFrontend-разработчик с 3+ годами опыта в создании веб-приложений.\n\n## Ключевые навыки\n\n-   HTML5, CSS3, JavaScript (ES6+)\n-   React, Redux\n-   Git, REST API\n-   Адаптивная верстка\n\n## Опыт работы\n\n### Frontend-разработчик --- ООО «ТехСофт»\n\n*2022 --- настоящее время* - Разработка SPA-приложений на React -\nОптимизация производительности сайта - Работа в команде по Agile\n\n### Верстальщик -"
+  },
+  {
+    "timestamp": "2026-02-19T22:23:54.584227",
+    "personal_info": {},
+    "position": {},
+    "experience_count": 0,
+    "education_count": 0,
+    "skills_count": 0,
+    "text_for_ai_preview": "# Иван Иванов\n\n**Email:** ivan.ivanov@email.com\\\n**Телефон:** +7 (999) 123-45-67\\\n**Город:** Москва\n\n## Цель\n\nFrontend-разработчик с 3+ годами опыта в создании веб-приложений.\n\n## Ключевые навыки\n\n-   HTML5, CSS3, JavaScript (ES6+)\n-   React, Redux\n-   Git, REST API\n-   Адаптивная верстка\n\n## Опыт работы\n\n### Frontend-разработчик --- ООО «ТехСофт»\n\n*2022 --- настоящее время* - Разработка SPA-приложений на React -\nОптимизация производительности сайта - Работа в команде по Agile\n\n### Верстальщик -"
+  },
+  {
+    "timestamp": "2026-02-19T22:24:01.677266",
+    "personal_info": {},
+    "position": {},
+    "experience_count": 0,
+    "education_count": 0,
+    "skills_count": 0,
+    "text_for_ai_preview": "# Иван Иванов\n\n**Email:** ivan.ivanov@email.com\\\n**Телефон:** +7 (999) 123-45-67\\\n**Город:** Москва\n\n## Цель\n\nFrontend-разработчик с 3+ годами опыта в создании веб-приложений.\n\n## Ключевые навыки\n\n-   HTML5, CSS3, JavaScript (ES6+)\n-   React, Redux\n-   Git, REST API\n-   Адаптивная верстка\n\n## Опыт работы\n\n### Frontend-разработчик --- ООО «ТехСофт»\n\n*2022 --- настоящее время* - Разработка SPA-приложений на React -\nОптимизация производительности сайта - Работа в команде по Agile\n\n### Верстальщик -"
+  },
+  {
+    "timestamp": "2026-02-19T22:26:29.958809",
+    "personal_info": {},
+    "position": {},
+    "experience_count": 0,
+    "education_count": 0,
+    "skills_count": 0,
+    "text_for_ai_preview": "# Иван Иванов\n\n**Email:** ivan.ivanov@email.com\\\n**Телефон:** +7 (999) 123-45-67\\\n**Город:** Москва\n\n## Цель\n\nFrontend-разработчик с 3+ годами опыта в создании веб-приложений.\n\n## Ключевые навыки\n\n-   HTML5, CSS3, JavaScript (ES6+)\n-   React, Redux\n-   Git, REST API\n-   Адаптивная верстка\n\n## Опыт работы\n\n### Frontend-разработчик --- ООО «ТехСофт»\n\n*2022 --- настоящее время* - Разработка SPA-приложений на React -\nОптимизация производительности сайта - Работа в команде по Agile\n\n### Верстальщик -"
+  },
+  {
+    "timestamp": "2026-02-19T22:26:37.939833",
+    "personal_info": {},
+    "position": {},
+    "experience_count": 0,
+    "education_count": 0,
+    "skills_count": 0,
+    "text_for_ai_preview": "# Иван Иванов\n\n**Email:** ivan.ivanov@email.com\\\n**Телефон:** +7 (999) 123-45-67\\\n**Город:** Москва\n\n## Цель\n\nFrontend-разработчик с 3+ годами опыта в создании веб-приложений.\n\n## Ключевые навыки\n\n-   HTML5, CSS3, JavaScript (ES6+)\n-   React, Redux\n-   Git, REST API\n-   Адаптивная верстка\n\n## Опыт работы\n\n### Frontend-разработчик --- ООО «ТехСофт»\n\n*2022 --- настоящее время* - Разработка SPA-приложений на React -\nОптимизация производительности сайта - Работа в команде по Agile\n\n### Верстальщик -"
+  },
+  {
+    "timestamp": "2026-02-19T22:26:43.653372",
+    "personal_info": {},
+    "position": {},
+    "experience_count": 0,
+    "education_count": 0,
+    "skills_count": 0,
+    "text_for_ai_preview": "■■■■ ■■■■■■\n**Email:** ivan.ivanov@email.com\n**■■■■■■■:** +7 (999) 123-45-67\n**■■■■■:** ■■■■■■\n■■■■\nFrontend-■■■■■■■■■■■ ■ 3+ ■■■■■■ ■■■■■ ■ ■■■■■■■■ ■■■-■■■■■■■■■■.\n■■■■■■■■ ■■■■■■\n HTML5, CSS3, JavaScript (ES6+)\n React, Redux\n Git, REST API\n ■■■■■■■■■■ ■■■■■■■\n■■■■ ■■■■■■\nFrontend-■■■■■■■■■■■ — ■■■ «■■■■■■■»\n*2022 — ■■■■■■■■■ ■■■■■*\n ■■■■■■■■■■ SPA-■■■■■■■■■■ ■■ React\n ■■■■■■■■■■■ ■■■■■■■■■■■■■■■■■■ ■■■■■\n ■■■■■■ ■ ■■■■■■■ ■■ Agile\n■■■■■■■■■■■ — ■■■■■■ WebArt\n*2020 — 2022*\n ■■■■■■■■■■■"
+  },
+  {
+    "timestamp": "2026-02-19T22:27:27.215288",
+    "personal_info": {},
+    "position": {},
+    "experience_count": 0,
+    "education_count": 0,
+    "skills_count": 0,
+    "text_for_ai_preview": "# Иван Иванов\n\n**Email:** ivan.ivanov@email.com\\\n**Телефон:** +7 (999) 123-45-67\\\n**Город:** Москва\n\n## Цель\n\nFrontend-разработчик с 3+ годами опыта в создании веб-приложений.\n\n## Ключевые навыки\n\n-   HTML5, CSS3, JavaScript (ES6+)\n-   React, Redux\n-   Git, REST API\n-   Адаптивная верстка\n\n## Опыт работы\n\n### Frontend-разработчик --- ООО «ТехСофт»\n\n*2022 --- настоящее время* - Разработка SPA-приложений на React -\nОптимизация производительности сайта - Работа в команде по Agile\n\n### Верстальщик -"
+  },
+  {
+    "timestamp": "2026-02-19T22:27:34.972715",
+    "personal_info": {},
+    "position": {},
+    "experience_count": 0,
+    "education_count": 0,
+    "skills_count": 0,
+    "text_for_ai_preview": "# Иван Иванов\n\n**Email:** ivan.ivanov@email.com\\\n**Телефон:** +7 (999) 123-45-67\\\n**Город:** Москва\n\n## Цель\n\nFrontend-разработчик с 3+ годами опыта в создании веб-приложений.\n\n## Ключевые навыки\n\n-   HTML5, CSS3, JavaScript (ES6+)\n-   React, Redux\n-   Git, REST API\n-   Адаптивная верстка\n\n## Опыт работы\n\n### Frontend-разработчик --- ООО «ТехСофт»\n\n*2022 --- настоящее время* - Разработка SPA-приложений на React -\nОптимизация производительности сайта - Работа в команде по Agile\n\n### Верстальщик -"
   }
 ]

@@ -1,0 +1,9 @@
+services:
+  bot:
+    build: .
+    container_name: resume-bot
+    command: python manage.py run_bot
+    env_file: .env
+    volumes:
+      - .:/app
+    restart: unless-stopped

@@ -5,7 +5,7 @@ router = Router()
 
 @router.message()
 async def echo_message(message: types.Message):
-    await message.answer(message.text)
+    await message.reply(message.text)
 
 
 def register_handlers(dp):

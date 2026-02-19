@@ -1,0 +1,14 @@
+.env
+venv/
+.venv/
+__pycache__/
+*.pyc
+.git/
+.idea/
+.vscode/
+cursor/
+*.md
+.dockerignore
+Dockerfile
+docker-compose*.yml
+*.sqlite3
